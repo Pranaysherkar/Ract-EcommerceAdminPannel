@@ -1,8 +1,8 @@
-# React + Vite
+Features :
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- API Integration: Utilizes Axios to fetch product data from an external API.
+- Categorized Rendering: Renders products in a centralized manner categorized by their respective categories.
+- CRUD Operations: Allows users to perform Create, Read, Update, and Delete operations on products directly from the client-side.
+- Local Storage: Stores product information locally in the browser's storage for persistence across sessions.
+- Product Details View: Displays detailed information about a specific product upon clicking its corresponding card.
+- Toast Notifications: Implements Toastify for user-friendly pop-up notifications.
